@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location - Shah's Flower Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFC0CB; /* Light pink background */
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #FF69B4; /* Darker pink for navbar */
+            padding: 10px;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #FF1493; /* Even darker pink on hover */
+            color: white;
+        }
+        .navbar img {
+            float: left;
+            margin-right: 20px;
+            height: 50px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #FF69B4;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <img src="C:\Users\Shah\OneDrive\Desktop\wpd class\images\logo3.webp" alt="Shah's Flower Shop Logo">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="location.html">Location</a>
+</div>
+
+<div class="container">
+    <!-- Location Page -->
+    <div id="location" class="section">
+        <h1>Our Location</h1>
+        <p>Find us at Gulf City Mall, Trinidad.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.365132233874!2d-61.44535148576892!3d10.271025592666155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c36079a7a7327f5%3A0x25893fa2a00332d8!2sGulf%20City%20Mall!5e0!3m2!1sen!2stt!4v1606915844532!5m2!1sen!2stt" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2024 Shah's Flower Shop. All rights reserved.
+</div>
+
+</body>
+</html>

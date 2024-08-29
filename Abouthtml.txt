@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Shah's Flower Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFC0CB; /* Light pink background */
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #FF69B4; /* Darker pink for navbar */
+            padding: 10px;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #FF1493; /* Even darker pink on hover */
+            color: white;
+        }
+        .navbar img {
+            float: left;
+            margin-right: 20px;
+            height: 50px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #FF69B4;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <img src="C:\Users\Shah\OneDrive\Desktop\wpd class\images\logo3.webp" alt="Shah's Flower Shop Logo">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="location.html">Location</a>
+</div>
+
+<div class="container">
+    <!-- About Us Page -->
+    <div id="about" class="section">
+        <h1>About Us</h1>
+        <p>Welcome to Shah's Flower Shop! We specialize in creating beautiful floral pieces for all occasions. Our talented team is dedicated to providing exceptional service and stunning designs.</p>
+        <h3>Our History</h3>
+        <ul>
+            <li>2017 - Shah's Flower Shop was established</li>
+            <li>2018 - Opened our first shop in Gulf City Mall</li>
+            <li>2019 - Launched our online store</li>
+            <li>2020 - Expanded our services to include event planning</li>
+            <li>2021 - Awarded Best Flower Shop in Trinidad</li>
+        </ul>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2024 Shah's Flower Shop. All rights reserved.
+</div>
+
+</body>
+</html>

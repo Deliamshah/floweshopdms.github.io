@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Shah's Flower Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFC0CB; /* Light pink background */
+            color: black;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: #FF69B4; /* Darker pink for navbar */
+            padding: 10px;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #FF1493; /* Even darker pink on hover */
+            color: white;
+        }
+        .navbar img {
+            float: left;
+            margin-right: 20px;
+            height: 50px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #FF69B4;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <img src="C:\Users\Shah\OneDrive\Desktop\wpd class\images\logo3.webp" alt="Shah's Flower Shop Logo">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="location.html">Location</a>
+</div>
+
+<div class="container">
+    <!-- Contact Us Page -->
+    <div id="contact" class="section">
+        <h1>Contact Us</h1>
+        <p>Phone: 624-ROSE (7673)</p>
+        <p>Email: shahsflowershop@gmail.com</p>
+        <p>Follow us on:</p>
+        <ul>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="footer">
+    &copy; 2024 Shah's Flower Shop. All rights reserved.
+</div>
+
+</body>
+</html>
